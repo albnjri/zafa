@@ -30,7 +30,7 @@ def generate_zafa():
     response = {
         "message": "تم إنشاء الزفة!",
         "text": zafa_text,
-        "download_url": f"https://yourstorage.com/zafat/{bride_name}_{groom_name}.mp3"
+        "download_url": f"https://goisra.com/zafat/{bride_name}_{groom_name}.mp3"
     }
 
     return jsonify(response)
