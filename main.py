@@ -1,5 +1,4 @@
-# main.py
-from Flask import Flask, request, jsonify
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
@@ -39,7 +38,3 @@ def generate_zafa():
 # تشغيل Flask على المنفذ 10000 (لـ Render)
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
-
-# requirements.txt
-Flask
-gunicorn
